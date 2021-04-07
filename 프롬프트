@@ -1,0 +1,11 @@
+프롬프트에서 샬라블라 입력시 프롬프트 코드실행
+
+황경변수에서 파일있는 폴더 지정
+https://wikidocs.net/72377
+
+실행 -> sysdm.cpl -> 고급 -> 환경변수 -> 사용자 변수 path 클릭 -> 편집 -> 새로 만들기 -> 샬라블라 폴더설정 -> 확인
+
+파일명 샬라블라.cmd
+@echo off
+cd c:/projects/mysite
+c:/venvs/mysite/scripts/activate
